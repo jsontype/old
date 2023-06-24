@@ -1,0 +1,6 @@
+3 Tier 아키텍쳐: Front <- Server -> DB
+API: 서버 개발자가 짠 코드를 호출하는 주소
+  "/abc GET : abc URL에서 GET 메소드을 요청하면 이런 일을 해주세요."
+  "/abc POST : abc URL에서 POST 메소드을 요청하면 이런 일을 해주세요."
+  "/def GET : def URL에서 GET 메소드을 요청하면 이런 일을 해주세요."
+CORS 에러: 같은 도메인 안에서 API를 호출해야함. 안 그럴경우 CORS 에러가 뜬다.
